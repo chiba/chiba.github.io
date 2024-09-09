@@ -10,7 +10,29 @@
   </head>
   <body>
     <main>
+        <br>
+        <br>
+        <br>
+        <br>
         <a href="https://www.google.com/maps/dir/?api=1&origin=Your+Location&destination=-37.82100786732516,144.94327872991562&travelmode=driving">Google maps</a> 
+
+        <button onclick="a()">
+            Open system
+        </button>
+        <button onclick="b()">
+            Open _blank
+        </button>
+    
+        <script>
+            function a() {
+                window.open(
+                    "https://www.google.com/maps/dir/?api=1&origin=Your+Location&destination=-37.82100786732516,144.94327872991562&travelmode=driving", "_system");
+            }
+            function b() {
+                window.open(
+                    "https://www.google.com/maps/dir/?api=1&origin=Your+Location&destination=-37.82100786732516,144.94327872991562&travelmode=driving", "_blank");
+            }
+        </script>
     </main>
   </body>
 </html>
